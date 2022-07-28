@@ -39,9 +39,11 @@ while True:
     
     download_box = driver.find_element_by_css_selector('a#asuccess')
     download_link = download_box.get_attribute('href')
-    print(download_link)
+    driver.close()
+    print(f'''\n Mp3Link : {download_link}
+    ''')
     
-    z = input('''
+    z = input('''\n
               Y == continue for get the next link
               X == Exit To Play Music ''')
     
@@ -50,7 +52,7 @@ while True:
     else :
         break
 
-select_play = input('''
+select_play = input('''\n
            Enter The Play Type:
            P = Play Music
            X = Exit
