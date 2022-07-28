@@ -31,7 +31,7 @@ def get_link_file(url):
 
 
 def get_user_url():
-    user_input = input("""Please Enter The Url : 
+    user_input = input(""" 
 __   __          _         _          ____  _                       
 \ \ / /__  _   _| |_ _   _| |__   ___|  _ \| | __ _ _   _  ___ _ __ 
  \ V / _ \| | | | __| | | | '_ \ / _ \ |_) | |/ _` | | | |/ _ \ '__|
@@ -44,9 +44,11 @@ Created By : AmirhoseinSohrabi & MohsenAzizi
 amirhoseinsohrabi.official@gmail.com
 me.mohsen.azizi@gmail.com
 
+-------------------------------------------------------------------
 
-            """)
+Please Enter The Url :""")
     return user_input
+    
 
 
 def get_user_choice(link):

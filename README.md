@@ -11,7 +11,7 @@ Youtube Player a tools for convert the youtube video to mp3 and play music
 <br>
 3 : pip3 install -r requirements.txt
 <br>
-4 : python3 Youtube_Player.py
+4 : python3 main.py
 <br>
 5 : Enter The Link
 <br>
