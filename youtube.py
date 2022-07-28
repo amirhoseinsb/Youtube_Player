@@ -31,7 +31,21 @@ def get_link_file(url):
 
 
 def get_user_url():
-    user_input = input("Please Enter The Url : ")
+    user_input = input("""Please Enter The Url : 
+__   __          _         _          ____  _                       
+\ \ / /__  _   _| |_ _   _| |__   ___|  _ \| | __ _ _   _  ___ _ __ 
+ \ V / _ \| | | | __| | | | '_ \ / _ \ |_) | |/ _` | | | |/ _ \ '__|
+  | | (_) | |_| | |_| |_| | |_) |  __/  __/| | (_| | |_| |  __/ |   
+  |_|\___/ \__,_|\__|\__,_|_.__/ \___|_|   |_|\__,_|\__, |\___|_|   
+                                                    |___/           
+--------------------------------------------------------------------
+Created By : AmirhoseinSohrabi & MohsenAzizi 
+
+amirhoseinsohrabi.official@gmail.com
+me.mohsen.azizi@gmail.com
+
+
+            """)
     return user_input
 
 
