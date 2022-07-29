@@ -24,7 +24,7 @@ def get_link_file(url):
 
     download_box = driver.find_element_by_css_selector('a#asuccess')
     link_file = download_box.get_attribute('href')
-
+    print(f'''\nMp3 Link : {link_file}\n''')
     driver.close()
 
     return link_file
